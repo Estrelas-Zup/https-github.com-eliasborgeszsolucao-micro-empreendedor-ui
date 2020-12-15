@@ -5,6 +5,7 @@ import imgLixeira from '../../assets/images/caneta.svg';
 import imgCaneta from '../../assets/images/lixeira.svg';
 import Input from '../../components/Input';
 
+
 function Produto() {
     const [produtos, setProdutos] = React.useState([])
 

@@ -4,14 +4,17 @@ import Footer from '../../components/Footer/index';
 import imgProduto from '../../assets/images/produto.jpeg';
 import imgIlustracaoGrafica from '../../assets/images/ilustracaoGrafica.svg';
 import imgDinheiro from '../../assets/images/dinheiro.svg';
+import { useAuth } from '../../core/hooks/useAuth';
 
 function DashBoard() {
+    let auth = useAuth();
     return (
         <div>
             <div className="gestao">
                 <div className="position-Dashboard">
                     <div className="message-welcome">
                         <div className="title-dashboard">
+                            <h3>Bem vindo {auth.user}</h3>
                             <h1>Dashboard</h1>
                         </div>
                     </div>
