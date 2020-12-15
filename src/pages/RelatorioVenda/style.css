@@ -1,0 +1,154 @@
+.relatorioVenda{
+    background: linear-gradient(to right top, #584eea, #5f5cec, #6769ee, #6f76ef, #7982ef);
+    height: 100%;
+}
+
+.classe-relatorioVenda{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.classe-relatorioVenda h1{
+    padding:150px 0 0 80px;
+    color: #fff;
+}
+
+.relatorioVendas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-atributos-relatorioVendas{
+    width:80%;
+    padding:30px 100px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#relatorioVenda h4{
+    color: #fff;
+}
+
+.position-dados-relatorioVenda-one{
+    display: flex;
+    justify-content: center;
+}
+
+.dados-relatorioVenda-one{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 0px;
+}
+
+p{
+    color: #000000;
+}
+
+.circunferencia-perda{
+    width: 15px;
+    height: 15px;
+    margin:20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+
+.relatorioVenda-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-edicao{
+    width: 8vh;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.icon-edicao img{
+    width: 4vh;
+    height: 4vh;
+}
+
+.icon-lixeira{
+    width: 8vh;
+    background-color: #fff;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-lixeira img{
+    width: 4vh;
+    height: 4vh;
+}
+
+/***********************************/
+
+.position-dados-relatorioVenda-second{
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dados-relatorioVenda-second{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/************************************/
+
+.position-dados-relatorioVenda-third{
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dados-relatorioVenda-third{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*****************************/
+
+.position-dados-relatorioVenda-fourth{
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dados-relatorioVenda-fourth{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
