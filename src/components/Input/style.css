@@ -1,0 +1,30 @@
+.input-caixa{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0;
+}
+
+.input{
+    width: 157vh;
+    height: 6vh;
+    border: none;
+}
+
+.btn-adicionar{
+    width: 12vh;
+    height: 6.3vh;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-consultar{
+    border-radius: 2px;
+    width: 12vh;
+    height: 6.3vh;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
