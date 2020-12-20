@@ -1,8 +1,10 @@
 import React from 'react';
 import { get } from '../../Core/request';
+import '../endpoints/ProdGetStaly.css'
 
 const ProdutoGet = () => {
     const [nome, setNome] = React.useState('');
+    const [idProduto, setIdProduto] = React.useState('');
     const [consulta, setConsulta] = React.useState([]);
 
     function handleSubmit(event) {
@@ -20,11 +22,31 @@ const ProdutoGet = () => {
             });
     }
 
+    
+
     const renderProduto = (produto) => {
         return (
-            <div>
-                <span>{produto.nome}</span>
-                <div>{produto.valorVenda}</div>
+            <div className="consultaProduto">
+
+                <table className="content-table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Produto</th>
+                            <th>Valor Venda</th>
+                            <th>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{produto.idProduto}</td>
+                            <td>{produto.nome}</td>
+                            <td>R$ {produto.valorVenda}</td>
+                            <td>dcode</td>
+                        </tr>
+
+                    </tbody>
+                </table>
 
             </div>
         )
@@ -41,6 +63,7 @@ const ProdutoGet = () => {
                     placeholder="Digite o nome do produto"
                     value={nome}
                     onChange={({ target }) => setNome(target.value)}
+                   
                 />
                 <button>Enviar</button>
             </form>

@@ -95,6 +95,8 @@
     transform: translate(0, -50%);
 }
 
+
+
 .img-fluid {
     width: auto;
     text-align: right;
@@ -139,7 +141,7 @@
 
 @media (max-width: 768px) {
     .box-1 {
-        grid-column: 1;
+        display: none;
     }
 
     .box-1 .text-title, .box-1 .text-title-p,

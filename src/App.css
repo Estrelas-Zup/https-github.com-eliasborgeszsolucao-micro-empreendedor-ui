@@ -1,6 +1,5 @@
 
   * {
-    background-color: #19181b;
     background-attachment: fixed;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -10,6 +9,7 @@
     padding-top: 4rem;
     margin: 0px;
     color: white;
+    background-color: #19181b;
     
   }
 
@@ -38,3 +38,5 @@
       padding: 0 1rem;
       margin: 0 auto;
   }
+
+ 
