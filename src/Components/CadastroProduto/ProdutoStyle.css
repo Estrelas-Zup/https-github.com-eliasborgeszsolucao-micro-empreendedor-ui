@@ -1,0 +1,81 @@
+.box3 {
+    width: 600px;
+    padding: 40px 6rem;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0f0f0f;
+    text-align: center;
+}
+
+.box3 h1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2.3rem;
+    text-align: left;
+    margin-left: 1.7rem
+}
+
+.box3 h1 span {
+    font-weight: 300;
+    color: #C86B60;
+}
+
+.box3 h3 {
+    color: #e52e4de5;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 1.7rem;
+}
+
+.separar1 {
+    display: flex;
+}
+
+.separar1 #cargo {
+    width: 800%;
+}
+
+.box3 input[type = "text"],.box3 input[type = "text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px 10px auto;
+    text-align: center;
+    border: 2px solid #C86B60;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: #ffffff;
+    border-radius: 35px;
+    transition: 0.25s;
+}
+
+.box3 input[type = "text"]:focus,.box3 input[type = "password"]:focus {
+    width: 280px;
+    border-color: #E52E4C;
+    text-align: center;
+}
+
+.box3 input[type = "submit"] {
+    border: 0;
+    background: #C86B60;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    padding: 10px 100px;
+    transition: all .4s;
+    outline: none;
+    color: #ffffff;
+    border-radius: 35px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+.box3 input[type = "submit"]:hover {
+    background: #c86a60dc;
+}
